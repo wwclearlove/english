@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/bg"
+              android:orientation="vertical"
+              tools:context=".activity.HistoryActivity">
+
+    <include layout="@layout/window_touming" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimension_48_dp"
+        android:background="@color/bottom_nav"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/dimension_36_dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dimension_14_dp"
+            android:adjustViewBounds="true"
+            android:src="@mipmap/icon" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dimension_6_dp"
+            android:layout_weight="1"
+            android:text="历史成绩"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimension_24_dp" />
+
+        <TextView
+            android:id="@+id/tv_his_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/dimension_10_dp"
+            android:text="清除"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimension_24_dp" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/tv_state"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="还没有历史成绩呢，\n请参加模拟考试"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/dimension_20_dp"
+        android:visibility="gone" />
+
+</LinearLayout>

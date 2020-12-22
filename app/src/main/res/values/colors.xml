@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#46b3ab</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="toolbar">#5cc5c1</color>
+    <color name="register_title">#559793</color>
+    <color name="nav_test">#048485</color>
+    <color name="choice">#C2C7CA</color>
+    <color name="drvier">#ababab</color>
+    <color name="wrong">#EB6161</color>
+    <color name="right">#48DAA9</color>
+    <color name="question_choice">#C2C7CA</color>
+    <color name="question_type">#F18C00</color>
+    <color name="sc">#FFF6D412</color>
+    <color name="red">#EA2000</color>
+    <color name="result">#217872</color>
+    <color name="key">#009100</color>
+    <color name="blue">#03B6FF</color>
+    <color name="orange">#F15A24</color>
+    <color name="xianhei">#D9DDDE</color>
+    <color name="gray">#cecece</color>
+    <color name="gray_text_more">#9e9e9e</color>
+    <color name="bottom_nav">#048485</color>
+    <color name="question_number">#F65662</color>
+    <color name="stroke">#B6B2AF</color>
+</resources>

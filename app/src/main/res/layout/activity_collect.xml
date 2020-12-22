@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ChapterexericseActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/toolbar"
+        android:orientation="horizontal"
+        android:layout_height="@dimen/dimension_48_dp">
+        <ImageView
+            android:layout_width="@dimen/dimension_40_dp"
+            android:layout_height="@dimen/dimension_40_dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dimension_10_dp"
+            android:src="@drawable/icon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="我的收藏"
+            android:textColor="@color/white"
+            android:layout_marginLeft="@dimen/dimension_14_dp"
+            android:textSize="@dimen/dimension_26_dp"/>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:paddingLeft="@dimen/dimension_10_dp"
+            android:paddingRight="@dimen/dimension_10_dp"
+            android:paddingTop="@dimen/dimension_6_dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_index"
+                    android:background="#f65662"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dimension_16_dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/dimension_2_dp"
+                    android:paddingLeft="@dimen/dimension_4_dp"
+                    android:paddingRight="@dimen/dimension_4_dp"
+                    android:paddingTop="@dimen/dimension_2_dp"
+                    android:text="第一题"/>
+                <TextView
+                    android:id="@+id/tv_types"
+                    android:background="#f18c00"
+                    android:textColor="@color/white"
+                    android:padding="@dimen/dimension_4_dp"
+                    android:textSize="@dimen/dimension_16_dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="单选"/>
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimension_10_dp"
+                android:text="____ his sister,Jack is quiet and does not easyly make friends with others."
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimension_18_dp"/>
+
+            <LinearLayout
+                android:id="@+id/lin_a"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimension_44_dp"
+                android:layout_marginTop="@dimen/dimension_20_dp"
+                android:background="@color/choice"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_a"
+                    android:layout_width="@dimen/dimension_28_dp"
+                    android:layout_height="@dimen/dimension_28_dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/dimension_20_dp"
+                    android:src="@drawable/defaults"/>
+
+                <TextView
+                    android:id="@+id/tv_a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimension_14_dp"
+                    android:layout_marginTop="@dimen/dimension_10_dp"
+                    android:text="A.Although"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/dimension_20_dp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lin_b"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimension_44_dp"
+                android:layout_marginTop="@dimen/dimension_20_dp"
+                android:background="@color/choice"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_b"
+                    android:layout_width="@dimen/dimension_28_dp"
+                    android:layout_height="@dimen/dimension_28_dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/dimension_20_dp"
+                    android:src="@drawable/defaults"/>
+
+                <TextView
+                    android:id="@+id/tv_b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimension_14_dp"
+                    android:layout_marginTop="@dimen/dimension_10_dp"
+                    android:text="A.Although"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/dimension_20_dp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin_c"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimension_44_dp"
+                android:layout_marginTop="@dimen/dimension_20_dp"
+                android:background="@color/choice"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_c"
+                    android:layout_width="@dimen/dimension_28_dp"
+                    android:layout_height="@dimen/dimension_28_dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/dimension_20_dp"
+                    android:src="@drawable/defaults"/>
+
+                <TextView
+                    android:id="@+id/tv_c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimension_14_dp"
+                    android:layout_marginTop="@dimen/dimension_10_dp"
+                    android:text="A.Although"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/dimension_20_dp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin_d"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimension_44_dp"
+                android:layout_marginTop="@dimen/dimension_20_dp"
+                android:background="@color/choice"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_d"
+                    android:layout_width="@dimen/dimension_28_dp"
+                    android:layout_height="@dimen/dimension_28_dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/dimension_20_dp"
+                    android:src="@drawable/defaults"/>
+
+                <TextView
+                    android:id="@+id/tv_d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimension_14_dp"
+                    android:layout_marginTop="@dimen/dimension_10_dp"
+                    android:text="A.Although"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/dimension_20_dp"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tv_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimension_10_dp"
+                android:visibility="gone"
+                android:gravity="center"
+                android:text="共答1题，答对1题，答错0题，正确100%"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimension_18_dp"/>
+
+            <LinearLayout
+                android:id="@+id/lin_daan_answer"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimension_6_dp"
+                    android:background="#F65662"
+                    android:paddingBottom="@dimen/dimension_2_dp"
+                    android:paddingLeft="@dimen/dimension_4_dp"
+                    android:paddingRight="@dimen/dimension_4_dp"
+                    android:paddingTop="@dimen/dimension_2_dp"
+                    android:text="题解"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dimension_16_dp"/>
+
+                <TextView
+                    android:id="@+id/tv_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimension_10_dp"
+                    android:text="@string/jiexi"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/dimension_18_dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/nav_test"
+        android:orientation="horizontal"
+        android:layout_height="@dimen/dimension_64_dp">
+        <!--nav子布局 上一题-->
+
+        <LinearLayout
+            android:id="@+id/lin_navigation_back"
+            android:layout_width="@dimen/dimension_0_dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:foreground="?android:selectableItemBackground"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/dimension_26_dp"
+                android:layout_height="@dimen/dimension_26_dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/navigation_back"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimension_4_dp"
+                android:text="上一题"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimension_14_dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lin_answer"
+            android:layout_width="@dimen/dimension_0_dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:foreground="?android:selectableItemBackground"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/dimension_26_dp"
+                android:layout_height="@dimen/dimension_26_dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/answer"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimension_4_dp"
+                android:text="查看题解"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimension_14_dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/dimension_0_dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:foreground="?android:selectableItemBackground"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_current_number"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimension_26_dp"
+                android:gravity="center"
+                android:text="1/184"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimension_16_dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimension_4_dp"
+                android:text="选择题目"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimension_14_dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lin_bt_unstar"
+            android:layout_width="@dimen/dimension_0_dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:foreground="?android:selectableItemBackground"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/dimension_26_dp"
+                android:layout_height="@dimen/dimension_26_dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/icon_remove"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimension_4_dp"
+                android:text="移除此题"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimension_16_dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/lin_navigation_forward"
+            android:layout_width="@dimen/dimension_0_dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:foreground="?android:selectableItemBackground"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/dimension_26_dp"
+                android:layout_height="@dimen/dimension_26_dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/navigation_forward"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimension_4_dp"
+                android:text="下一题"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimension_16_dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

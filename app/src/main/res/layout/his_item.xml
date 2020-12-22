@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="80dp"
+              android:background="#9c6ca3"
+              android:orientation="horizontal">
+
+
+    <RelativeLayout
+        android:layout_width="@dimen/dimension_0_dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/tv_his_num"
+            android:layout_width="@dimen/dimension_46_dp"
+            android:layout_height="@dimen/dimension_46_dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/n0"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimension_20_dp"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/dimension_0_dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_his_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:text="1分"
+
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimension_18_dp"/>
+
+        <TextView
+            android:id="@+id/tv_his_costtime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimension_10_dp"
+            android:gravity="start"
+            android:text="04:14"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimension_18_dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/dimension_0_dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_his_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="不及格"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimension_18_dp"/>
+
+        <TextView
+            android:id="@+id/tv_his_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimension_10_dp"
+            android:gravity="start"
+            android:text="2017-12-05 16:39:21"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimension_18_dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
